@@ -40,7 +40,7 @@ fetchting dataset files --> process and store song data --> process and store lo
 Remarks on final results:
 ---------------
 
-1. Duplications occuered in tables like songplays, users and time 
+ - Duplications occuered in tables like songplays, users and time 
  - in songplays there can be duplications for the same user id in columns like: song_id, artist_id, session_id, Location and user_agent
  - in time table there be duplications for almost similar timestamps in columns like: hour 	day, week, month, year, weekday
  - users first and last names, also gender and level may be similar over multiple rows.
