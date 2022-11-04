@@ -32,7 +32,7 @@ Files in the repository
 Database schema and ETL
 ---------------
 As shown in the figure (please see database_schema.jpg, if the figure did not display inline), the tables are created as a stare schema where songplays is the fact table and the rest of the tables are dimension tables.
-![The database schema!](/database_schema.jpg "")
+![The database schema!](https://github.com/BaZom/Data-warehouse-with-AWS-S3-and-Redshift/blob/848476c6f991f098374eba1e0247dcb8d3350468/star_schema.png?raw=true "")
 
 ETL workflow: 
 fetchting dataset files --> process and store song data --> process and store log data
